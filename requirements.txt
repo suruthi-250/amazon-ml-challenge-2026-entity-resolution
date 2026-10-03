@@ -1,0 +1,10 @@
+# Python 3.13 (tested on 3.13.15, Windows 11, 8 logical cores, 16 GB RAM)
+polars==1.44.2
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+rapidfuzz==3.14.6
+pyarrow==25.0.1
+# GPU step only (gpu_crossencoder.py), versions as provided on Kaggle GPU images:
+# torch>=2.3
+# transformers>=4.44
